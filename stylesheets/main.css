@@ -1,0 +1,130 @@
+main section {
+    display: flex;
+    flex-direction: row;
+    margin: 172px 145px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .text {
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+    align-items: baseline;
+}
+
+section .text .title {
+    text-align: left;
+    font-size: 27px;
+    font-family: "Yeseva One", sans-serif;
+    margin-bottom: 34px;
+    line-height: 31px;
+}
+
+section .text .description {
+    text-align: left;
+    font-size: 20px;
+    font-family: "Josefin Sans";
+    color: #838698;
+    line-height: 24px;
+}
+
+section .text .home {
+    margin-bottom: 64px;
+}
+
+section .image img {
+    width: 492px;
+    height: 353px;
+    object-fit: cover;
+    object-position: center;
+}
+
+section .text .calltoaction {
+    display: flex;
+    align-items: center;
+}
+
+section .calltoaction button {
+    width: 160px;
+    height: 58px;
+    font-size: 25px;
+    border: none;
+    border-radius: 9999px;
+    background-color: #A18167;
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+section .calltoaction p {
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: underline;
+}
+
+.align-right {
+    display: flex;
+    align-items: center;
+}
+.align-right .text {
+    height: 256px;
+}
+
+.align-right .text h2, .align-right .text p  {
+    text-align: right;
+}
+
+.align-right .image img {
+    width: 412px;
+    height: 412px;
+    object-fit: contain;
+    object-position: center;
+    top: -200px;
+}
+
+.align-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-left .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.align-left .images {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 16px;
+    flex-direction: row; 
+}
+
+.align-left .images .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.align-left .images img {
+    width: 200px;
+    height: 200px;
+}
+
+.align-left .images .image p {
+    font-size: 24px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 14px;
+}
+
+.align-left .text .title, .align-left .text .description {
+    width: 382px;
+
+}
+
+.collection {
+    align-items: center;
+}
+
+.collection .text .description {
+    margin: 0;
+}

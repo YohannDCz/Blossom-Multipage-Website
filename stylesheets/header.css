@@ -1,0 +1,111 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:0;
+    right:0;
+    left:0;
+    height: 62px;
+    box-shadow: 0 3px 9px #00000029;
+    border: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    left: 200px;
+    right: 200px;
+    width: 1520px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotype {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .header .logotype img {
+    width:62px;
+    height:62px;
+    justify-content: flex-start;
+}
+
+header .header .logotype h1 {
+    display: inline-block;
+    font-family: "Yeseva One", sans-serif;
+    font-size: 32px;
+    margin-left: 8px;
+}
+
+nav {
+    display: flex;
+    font-size: 26px;
+    font-family: "Josefin Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 44px;
+    margin-right: 62px;
+}
+
+nav h2 {
+    margin-right: 40px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav button {
+    display: flex;
+    position: relative;
+    width: 108px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border-radius: 9999px;
+    border: 1px solid #707070;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+nav button::before {
+    content: "";
+    position: absolute;
+    border: 2px solid #DC2E8593;
+    width: 24px;
+    height: 0;
+    bottom: 5.5px;
+    left: 17.26px;
+    }
+
+nav button::after{
+    display: flex;
+    content: "";
+    background-image: url(./images/ic_search_24px.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 23.66px;
+    height: 23.66px;
+    right: 11.46px;
+    align-items: center;
+    justify-content: center;
+}
+
+header .cart button {
+    width: 190px;
+    height: 56px;
+    background-color: #DC2E85;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: "Josefin Sans";
+    border: none;
+    border-radius: 8px;
+    padding: 0;
+}

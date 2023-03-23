@@ -1,0 +1,77 @@
+main section .scrolling-images,
+main section .scrolling-images1,
+main section .scrolling-images2,
+main section .scrolling-images3,
+main section .scrolling-images4 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 632px;
+    overflow-x: scroll;
+    align-items: center;
+    z-index: 0;
+}
+
+
+main section .scrolling-images .image img,
+main section .scrolling-images1 .image img,
+main section .scrolling-images2 .image img,
+main section .scrolling-images3 .image img,
+main section .scrolling-images4 .image img { 
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin: 8px;
+    z-index: 0;
+}
+
+main button {
+    display: flex;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    border: none;
+    opacity: 0.75;
+    background-color: black;
+    cursor: pointer;
+    z-index: 999;
+}
+
+main button img {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    object-position: center;
+}
+
+main .align-right, 
+main .align-left {
+    display: flex;
+}
+
+main .align-left .right-button {
+    right: 115px;
+    z-index: 1;
+}
+
+main .align-left .left-button {
+    right: 740px;
+    z-index: 1;
+}
+
+main .align-right .right-button {
+    position: absolute;
+    left: 745px;
+    z-index: 1;
+}
+
+main .align-right .left-button {
+    position: absolute;
+    left: 125px;
+    z-index: 1;
+}

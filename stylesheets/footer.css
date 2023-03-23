@@ -1,0 +1,69 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 62px;
+    background-color: #E9D3C093;
+    margin-top: 249px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 145px;
+    margin-right: 145px;
+
+}
+
+.footer .blossom {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.footer .blossom img {
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer .blossom h1 {
+    font-size: 32px;
+    font-family: "Yeseva One";
+    margin-left: 8px;
+}
+
+.footer .blossom h2 {
+    font-size: 30px;
+    font-family: "Josefin Sans";
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.footer .menu {
+    font-size: 20px;
+    font-family: "Josefin Sans";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .menu p {
+    margin: 8px 15px 0;
+}
+
+.footer .menu .about {
+    margin-left: 34px;
+}
+.footer .menu .media {
+    margin-right: 0;
+}
